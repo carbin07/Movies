@@ -1,132 +1,110 @@
 <div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=dCLhUialKPQ" target="_blank">
-      <img src="public/readme/hero.png" alt="Project Banner">
-    </a>
-  <br />
-  
-  <div>
-    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
-    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
-
-  <h3 align="center">A Movie Application</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <h1>🎬 Movie Discovery App</h1>
+  <p>A personal React project for discovering movies, searching titles, and exploring trending content.</p>
+  <p>
+    <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+    <img src="https://img.shields.io/badge/Appwrite-FD366E?style=for-the-badge&logo=appwrite&logoColor=white" alt="Appwrite" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  </p>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+📋 Table of Contents
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+About the Project
 
-## 🚨 Tutorial
+Tech Stack
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+Features
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+Getting Started
 
-<a href="https://www.youtube.com/watch?v=dCLhUialKPQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+Environment Variables
 
-## <a name="introduction">🤖 Introduction</a>
+<a name="introduction">📌 About the Project</a>
 
-Built with React.js for the user interface, Appwrite for backend services, and styled with TailwindCSS, this Movie App lets users browse trending movies, search titles, and explore content using the TMDB API. It features a responsive layout and a sleek, modern design.
+Movie Discovery App is a personal portfolio project built to practise and demonstrate modern frontend development. It provides a responsive interface for browsing movies, searching for titles, and viewing trending content using data from the TMDB API.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+I built this project to strengthen my skills in React component design, API integration, responsive UI development, and working with Appwrite as a backend service.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+<a name="tech-stack">⚙️ Tech Stack</a>
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+Appwrite is an open-source Backend-as-a-Service (BaaS) platform that provides developers with a set of APIs to manage authentication, databases, storage, and more, enabling rapid development of secure and scalable applications.
 
-- **[Appwrite](https://appwrite.io/)** is an open-source Backend-as-a-Service (BaaS) platform that provides developers with a set of APIs to manage authentication, databases, storage, and more, enabling rapid development of secure and scalable applications.
+React.js is a JavaScript library developed by Meta for building user interfaces. It allows developers to create reusable UI components that manage their own state, leading to more efficient and predictable code. React is widely used for developing single-page applications (SPAs) due to its virtual DOM that improves performance and ease of maintenance.
 
-- **[React.js](https://react.dev/reference/react)** is a JavaScript library developed by Meta for building user interfaces. It allows developers to create reusable UI components that manage their own state, leading to more efficient and predictable code. React is widely used for developing single-page applications (SPAs) due to its virtual DOM that improves performance and ease of maintenance.
+React-use is a collection of essential React hooks that simplify common tasks like managing state, side effects, and lifecycle events, promoting cleaner and more maintainable code in React applications.
 
-- **[React-use](https://github.com/streamich/react-use)** is a collection of essential React hooks that simplify common tasks like managing state, side effects, and lifecycle events, promoting cleaner and more maintainable code in React applications.
+Tailwind CSS is a utility-first CSS framework that provides low-level utility classes to build custom designs without writing custom CSS, enabling rapid and responsive UI development.
 
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that provides low-level utility classes to build custom designs without writing custom CSS, enabling rapid and responsive UI development.
+Vite is a modern build tool that provides a fast development environment for frontend projects. It offers features like hot module replacement (HMR) and optimized builds, enhancing the development experience and performance.
 
-- **[Vite](https://vite.dev/)** is a modern build tool that provides a fast development environment for frontend projects. It offers features like hot module replacement (HMR) and optimized builds, enhancing the development experience and performance.
+<a name="features">🔋 Features</a>
 
+👉 Browse All Movies: Explore a wide range of movies available on the platform.
 
-## <a name="features">🔋 Features</a>
+👉 Search Movies: Easily search for specific movies using a search function.
 
-👉 **Browse All Movies**: Explore a wide range of movies available on the platform.
+👉 Trending Movies Algorithm: Displays trending movies based on a dynamic algorithm.
 
-👉 **Search Movies**: Easily search for specific movies using a search function.
+👉 Modern UI/UX: A sleek and user-friendly interface designed for a great experience.
 
-👉 **Trending Movies Algorithm**: Displays trending movies based on a dynamic algorithm.
-
-👉 **Modern UI/UX**: A sleek and user-friendly interface designed for a great experience.
-
-👉 **Responsiveness**: Fully responsive design that works seamlessly across devices.
+👉 Responsiveness: Fully responsive design that works seamlessly across devices.
 
 and many more, including code architecture and reusability
 
-## <a name="quick-start">🤸 Quick Start</a>
+<a name="quick-start">🤸 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
 
-**Prerequisites**
+Prerequisites
 
 Make sure you have the following installed on your machine:
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+Git
 
-**Cloning the Repository**
+Node.js
 
-```bash
-git clone https://github.com/adrianhajdin/react-movies.git
-cd react-movies
+npm (Node Package Manager)
 
-```
+Clone your repository
 
-**Installation**
+git clone <your-github-repository-url>
+cd <your-project-folder>
+
+Installation
 
 Install the project dependencies using npm:
 
-```bash
 npm install
-```
 
-**Set Up Environment Variables**
+<a name="environment-variables">🔐 Environment Variables</a>
 
-Create a new file named `.env.local` in the root of your project and add the following content:
+Create a .env.local file in the project root and add the following variables:
 
-```env
+
+
+
+
 VITE_TMDB_API_KEY=
 
 VITE_APPWRITE_PROJECT_ID=
 VITE_APPWRITE_DATABASE_ID=
 VITE_APPWRITE_COLLECTION_ID=
-```
 
-Replace the placeholder values with your actual **[TheMovieDatabase API](https://developer.themoviedb.org/reference/intro/getting-started)** and **[Appwrite](https://apwr.dev/JSM050)** credentials.
+Add your own credentials from the TMDB API and your Appwrite project settings. Never commit real secrets to GitHub.
 
-**Running the Project**
+Running the Project
 
-```bash
 npm run dev
-```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+Open http://localhost:5173 in your browser to view the project.
 
-## <a name="snippets">🕸️ Snippets</a>
+<a name="snippets">🕸️ Snippets</a>
 
 <details>
 <summary><code>index.css</code></summary>
 
-```css
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
@@ -289,14 +267,12 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
     display: none;
   }
 }
-```
 
 </details>
 
 <details>
 <summary><code>components/Spinner.jsx</code></summary>
 
-```jsx
 import React from 'react'
 
 const Spinner = () => {
@@ -317,25 +293,9 @@ const Spinner = () => {
   )
 }
 export default Spinner
-```
+
 </details>
 
+📝 Notes
 
-## <a name="links">🔗 Assets</a>
-
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/react25-kit)**.
-
-<a href="https://jsm.dev/react25-kit" target="_blank">
-  <img src="public/readme/videokit.png" alt="Video Kit Banner">
-</a>
-
-## <a name="more">🚀 More</a>
-
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://jsm.dev/react25-jsmpro" target="_blank">
-  <img src="public/readme/jsmpro.png" alt="Project Banner">
-</a>
+This repository is maintained as a personal learning and portfolio project. If you build on it, configure your own TMDB and Appwrite credentials in the environment file and keep secrets out of version control.
